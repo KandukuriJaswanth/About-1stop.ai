@@ -1,0 +1,148 @@
+### Web-developing code####
+<!Doctype html>
+<html>
+<title>HTML</title>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font -awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+    
+
+ h1{
+    color:rgb(0, 255, 98);
+    font-size: 50px;
+    font-family: verdana;
+    font-weight: lighter;
+}
+
+    p{
+        background-color: rgb(128, 0, 32);
+   color: gold;
+   font-size: 15px;
+   font-family: Verdana;
+    }
+    p span{
+        font-size: 25px;
+        color: blue ;
+        font-weight: bold;
+     }
+    
+    
+    p  a{
+        text-decoration:none ;
+        color: rgb(255, 0, 13);
+    }
+     p a:hover{
+         color: rgb(0, 255, 76);
+     }
+     .container{
+        display:flex ;
+     }
+     .container.card{
+       width: 25%;
+       height:300px ;
+       border: 1px solid black;   
+     }
+     .container.card1{
+          background-image:url(https://images.app.goo.gl/4yqAxbjL4nqhgiQa7) ;
+      background-size: cover;
+        }
+          .container .card1 h2{
+              text-align: center;
+              padding: 50px;
+              padding-top: 100px;
+          }
+          .container .card2   img{
+           width: 100%;
+            height: 300px;
+          }
+           .container .card3 img{
+               width: 100%;
+               height: 200px; ;
+           }
+           .container.card3 p1{
+               text-align: center;
+               padding: 20px;
+              background-color:transparent blue; 
+           }
+            .container .card4 h2{
+            text-align: center;
+            color: blue;
+            padding: 15px; 
+            } 
+            .container .card4 .p2{
+                background-color: transparent;
+                padding: 15px;
+                color: orange;
+                font-family: verdana;
+                font-size: 20px;
+            }
+            .container .card4 a{
+                text-decoration:palegreen;
+                color: black;
+                background-color: orange;
+                padding: 15px;
+                margin: 10px;
+                margin-top: 100px;
+            }
+              .container .game{
+                  color: blueviolet;
+                  background-color:darkgoldenrod ;
+                  padding: 100px;
+                  margin: 5px;
+
+              }
+    </style>
+</head>
+  <body>
+      
+<!--Paragrph-->
+<p><span>1</span>1stop is a strong platform with immense potential for students from anywhere and anytime to access cutting-edge Mentorship.
+     And Certification Program widespread with a larger number of domains and niches to explore learning. E-learning has been the fastest growing way
+      for an aspirant to start their journey into pursuing their Dream Career.
+       Our Vision lies to bring in a technology-oriented career-driven Industrial Experience into the aspirant’s career with Great Value.
+    
+    “Learn, Grow, Prosper”<br>
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+     <pre>
+        1stop is a strong platform with immense potential for students from anywhere and anytime to access cutting-edge Mentorship and
+         Certification Program widespread with a larger number of domains and niches to explore learning.
+     </pre>
+     
+     <p><a href="https://www.1stop.ai/about">About us</a> </p>
+<!--For dividing screen-->
+<div class="container">
+  <div class="card card1">
+      <h2>Box 1</h2>
+  </div>
+  <div class="card card2">
+      <img src="https://www.1stop.ai/images/Ellipse-35.png">
+  </div>
+  <div class="card3">
+      <img src="https://media-exp1.licdn.com/dms/image/C560BAQElUigENTqY3Q/company-logo_200_200/0/1610359788325?e=2147483647&v=beta&t=uHGN0dd5IGi4WIlNx5skHADFdOxFIGo8MS5pliCdSbo">
+<p class="p1"><h4>Box 2</h4>
+   This is box 2.
+</p>
+  </div>
+  <div class="card card4">
+      <h2>Box 3</h2>
+      <p class="p2">1stop is a strong platform with immense potential for students from anywhere and anytime to access cutting-edge Mentorship and 
+          Certification Program widespread with a larger number of domains and niches to explore learning.
+           E-learning has been the fastest growing way for an aspirant to start their journey into pursuing their Dream Career.  </p>
+          <a href="https://www.1stop.ai/">Know More</a>
+  </div>
+  <div class="card card5">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdxKNr-xrc3N5NFt4fRrAlbPTUOdXiQlh9S18ZFwFAmrPxZDD6wPpbdMci8ljhArAz9h4&usqp=CAU">
+      <h3>box 4</h3>
+
+  </div>
+
+
+
+  <div class="card card6">
+    <h4>box 5
+      <p> Our Vision lies to bring in a technology-oriented career-driven Industrial Experience into the aspirant’s career with Great Value. </p> 
+    </h4>
+</div>
+
+</body>
+</html>
